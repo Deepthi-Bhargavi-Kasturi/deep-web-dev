@@ -592,6 +592,47 @@ footer a.fb { margin-left:5%; }
 
 @media all and (max-width:189px) {
 
+	section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+
+	section aside div.technologies-interested div.tech.html { background: none; }
+	section aside div.technologies-interested div.tech.css { background: none; }
+	section aside div.technologies-interested div.tech.js { background: none; }
+	section aside div.technologies-interested div.tech.java { background: none; }
+	section aside div.technologies-interested div.tech.db { background: none; }
+	section aside div.technologies-interested div.tech.bc { background: none; }
+	section aside div.technologies-interested div.tech.ai { background: none; }
+
+	section aside div.technologies-interested div.tech.js p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.html p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.java p { font-size: 1.2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.bc p { font-size: 2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.ai p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:0; }
+
+	section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1rem; margin-left:0;}
+	section.professionalexp div.content-professional ul li { font-size: 1rem;}
+	section.professionalexp div.content-professional:hover { transform: scale(1,1); }
+
+	section.professionalexp div.content-techm:hover { transform: scale(1,1); }
+	section.professionalexp div.content-techm p.prof-para { font-size: 1rem; }
+
+	
+	section.professionalexp div.content-oracle:hover { transform: scale(1,1); }
+	section.professionalexp div.content-oracle p.prof-para { font-size: 1rem; }
+
+	section > article { background: none; }
+
+    article div.recommended h2 { visibility: visible; margin-top:.5rem; margin-left:0;}
+	article div.recommended p.article-para { font-size: 1rem; margin-top:0;}
+	article div.recommended p.article-para::before { content:''; }
+	article div.recommended p.article-para a { width: 60%; }
+
+	section.section-work { height: 20rem; }
+
+	section.section-work div.work { height: 90%; }
+	
 	section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:115%; margin-left:10%;  }
 
 	section aside div.technologies-interested { height:50%; }
@@ -603,7 +644,7 @@ footer a.fb { margin-left:5%; }
 	section aside div.technologies-interested div.tech.ai p { font-size: 1.3rem; }
 	section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:40%; }
 
-	footer p { display:block; font-size: 1rem; }
+
 	footer a {margin:0;}
 
 	article div.recommended p.article-para a { width: 100%; margin-left:0;}
