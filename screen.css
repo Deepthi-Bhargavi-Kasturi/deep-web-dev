@@ -164,7 +164,7 @@ footer a { margin: 0.3125rem/*5px*/;}
 
 /* media queries */
 
-@media screen and (min-width:2500px) {
+@media all and (min-width:2500px) {
 
 	header div.description-of-self div.profile-picture { height:16rem; }
 
@@ -190,7 +190,7 @@ footer a { margin: 0.3125rem/*5px*/;}
 
 }
 
-@media screen and (min-width:1281px) and (max-width:1700px) {
+@media all and (min-width:1281px) and (max-width:1700px) {
 
 	#page { width:85vw; }
 
@@ -199,7 +199,7 @@ footer a { margin: 0.3125rem/*5px*/;}
 }
 
 
-@media screen and (max-width:1280px) {
+@media all and (max-width:1280px) {
 
 #page { width:80vw; }
 
@@ -275,7 +275,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:1000px) {
+@media all and (max-width:1000px) {
 
 	#page { width:85vw; }
 
@@ -314,7 +314,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (min-width:768px) and (max-width:899px) {
+@media all and (min-width:768px) and (max-width:899px) {
 
 	#page { width:95vw; }
 
@@ -352,7 +352,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:767px) {
+@media all and (max-width:767px) {
 
 	#page { width:96vw; }
 
@@ -364,7 +364,7 @@ footer a.fb { margin-left:68%; }
 
 	header div.description-of-self div.about-content { order:1; }
 
-	header div.description-of-self div.profile-picture { width: 32.19677871148459%; height: 14.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: .5rem; }
+	header div.description-of-self div.profile-picture { width: 32.19677871148459%; height: 14.8125rem; margin-left: 4.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
 
 	header div.description-of-self div.block-quote blockquote { box-sizing: border-box; width: 50vw; height:95%; padding-right: .4rem; }
 	header div.description-of-self div.block-quote { margin:0; width:50%; text-align:justify; text-justify:inter-word; }
@@ -415,7 +415,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:650px) {
+@media all and (max-width:650px) {
 
 	#page { width: 100vw; }
 
@@ -453,7 +453,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:535px) {
+@media all and (max-width:535px) {
 
 	header div.welcome-text h1 { font-size: 3rem; }
 
@@ -467,9 +467,12 @@ footer a.fb { margin-left:68%; }
 	footer a.fb { margin-left:48%; }
 }
 
-@media screen and (max-width:500px) {
+@media all and (max-width:500px) {
 
 	header div.welcome-text h1 { font-size: 2.85rem; }
+
+	header div.description-of-self div.profile-picture { width: 29.19677871148459%; height: 10.8125rem; margin-left: 6.4005602240896%/*15/1142.4*/; margin-bottom: 1.5rem; }
+
 
     section aside div.technologies-interested { height: 100%; }
 	section aside div.technologies-interested div.tech  { width: 95%; height:7rem; }
@@ -496,7 +499,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:420px) {
+@media all and (max-width:420px) {
 
     header div.welcome-text {padding:0; margin:0 auto 0 auto;}
 	header div.welcome-text h1 { font-size: 2rem;  }
@@ -531,7 +534,7 @@ footer a.fb { margin-left:68%; }
 
 }
 
-@media screen and (max-width:319px) {
+@media all and (max-width:319px) {
 
 header div.welcome-text h1 { font-size: 1.8rem; }
 
@@ -545,24 +548,27 @@ header div.welcome-text h1:nth-child(9) { color: yellow; }
 header div.welcome-text h1:nth-child(11) { color: blue; }
 header div.welcome-text h1:nth-child(13) { color: red; }
 
-header div.description-of-self { padding:0; }
-header div.description-of-self div.profile-picture { width: 100%; height: 12.8125rem;  }
+header div.description-of-self { padding:0; justify-content:space-around; align-content:space-around; }
+header div.description-of-self div.profile-picture { width: 75%; height: 12.8125rem;  }
 
+header div.description-of-self div.about-content { height:50%; margin-top:1rem; }
 header div.description-of-self div.about-content h1 { font-size: 1.4rem; } 
 header div.description-of-self div.about-content h3 { font-size: 1.3rem; } 
-header div.description-of-self div.about-content p { font-size: 1.5rem; }
+header div.description-of-self div.about-content p { font-size: 1.4rem; }
 
+header div.description-of-self div.block-quote{ height:50%; }
 header div.description-of-self div.block-quote blockquote { padding-right:1rem; box-shadow:none;  }
-header div.description-of-self div.block-quote blockquote p { font-size: 1.125rem; padding-left:0; }
-header div.description-of-self div.block-quote blockquote p.quote { font-size: 1.375rem; }
-header div.description-of-self div.block-quote blockquote p.quote::before { font-size:2.125rem;}
+header div.description-of-self div.block-quote blockquote p { font-size: 1.4rem; padding-left:0; }
+header div.description-of-self div.block-quote blockquote p.quote { font-size: 1.4rem; }
+header div.description-of-self div.block-quote blockquote p.quote::before { font-size:1.9rem;}
 header div.description-of-self div.block-quote blockquote p.quote::after { font-size: 1rem; }
 header div.description-of-self div.block-quote blockquote p.quote span { font-size: 1rem; }
-header div.description-of-self div.block-quote blockquote p.credit { font-size: 1.3rem;}
+header div.description-of-self div.block-quote blockquote p.credit { font-size: 1.2rem;}
 
 section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
 
-section aside div.technologies-interested div.tech.js p { font-size: 1.5rem; margin-left:30%;}
+section aside div.technologies-interested div.tech.js p { font-size: 1.4rem; margin-left:31%;}
+section aside div.technologies-interested div.tech.html p { font-size: 2rem; margin-left:30%;}
 section aside div.technologies-interested div.tech.java p { font-size: 2.5rem; }
 section aside div.technologies-interested div.tech.db p { font-size: 1.5rem; }
 section aside div.technologies-interested div.tech.bc p { font-size: 2rem; }
@@ -584,9 +590,49 @@ footer a.fb { margin-left:5%; }
 
 }
 
-@media screen and (max-width:150px) {
+@media all and (max-width:189px) {
 
-	footer p { display:block; font-size: 1rem; }
+	section.technical-interest p.text-tech { font-size:1.2rem; margin-bottom:7rem; }
+
+	section aside div.technologies-interested div.tech.html { background: none; }
+	section aside div.technologies-interested div.tech.css { background: none; }
+	section aside div.technologies-interested div.tech.js { background: none; }
+	section aside div.technologies-interested div.tech.java { background: none; }
+	section aside div.technologies-interested div.tech.db { background: none; }
+	section aside div.technologies-interested div.tech.bc { background: none; }
+	section aside div.technologies-interested div.tech.ai { background: none; }
+
+	section aside div.technologies-interested div.tech.js p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.html p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.java p { font-size: 1.2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.bc p { font-size: 2rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.db p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.ai p { font-size: 1rem; margin-left:0;}
+	section aside div.technologies-interested div.tech.css p { font-size: 2rem; margin-left:0; }
+
+	section.professionalexp div.content-professional p.prof-txt, ul li { font-size:1rem; margin-left:0;}
+	section.professionalexp div.content-professional ul li { font-size: 1rem;}
+	section.professionalexp div.content-professional:hover { transform: scale(1,1); }
+
+	section.professionalexp div.content-techm:hover { transform: scale(1,1); }
+	section.professionalexp div.content-techm p.prof-para { font-size: 1rem; }
+
+	
+	section.professionalexp div.content-oracle:hover { transform: scale(1,1); }
+	section.professionalexp div.content-oracle p.prof-para { font-size: 1rem; }
+
+	section > article { background: none; }
+
+    article div.recommended h2 { visibility: visible; margin-top:.5rem; margin-left:0;}
+	article div.recommended p.article-para { font-size: 1rem; margin-top:0;}
+	article div.recommended p.article-para::before { content:''; }
+	article div.recommended p.article-para a { width: 60%; }
+
+	section.section-work { height: 20rem; }
+
+	section.section-work div.work { height: 90%; }
+
 	footer a {margin:0;}
 
 	article div.recommended p.article-para a { width: 100%; margin-left:0;}
